@@ -1,0 +1,7 @@
+# Example of integer variables
+positive_integer = 10
+negative_integer = -5
+
+# Checking the type of the variable
+print(type(positive_integer))  # Output: <class 'int'>
+print(type(negative_integer))  # Output: <class 'int'>
