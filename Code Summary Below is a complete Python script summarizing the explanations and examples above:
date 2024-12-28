@@ -1,0 +1,46 @@
+# Data Types in Python
+
+# Integers
+positive_integer = 10
+negative_integer = -5
+print(type(positive_integer))  # <class 'int'>
+
+# Floats
+positive_float = 3.14
+negative_float = -7.89
+print(type(positive_float))  # <class 'float'>
+
+# Strings
+single_quote_string = 'Hello'
+double_quote_string = "World"
+greeting = single_quote_string + " " + double_quote_string
+print(greeting)  # Hello World
+
+# Booleans
+is_python_fun = True
+is_sky_green = False
+print(is_python_fun, is_sky_green)  # True False
+
+# Type Conversions
+float_value = 7.8
+integer_value = int(float_value)
+print(integer_value)  # 7
+
+integer_value = 5
+float_value = float(integer_value)
+print(float_value)  # 5.0
+
+integer_value = 10
+string_value = str(integer_value)
+print(string_value)  # '10'
+
+string_value = "123"
+integer_value = int(string_value)
+print(integer_value)  # 123
+
+string_value = "45.67"
+float_value = float(string_value)
+print(float_value)  # 45.67
+
+print(bool(1), bool(0))  # True False
+print(bool(""), bool("Python"))  # False True
