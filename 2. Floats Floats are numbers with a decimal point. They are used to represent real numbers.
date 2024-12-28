@@ -1,0 +1,7 @@
+# Example of float variables
+positive_float = 3.14
+negative_float = -7.89
+
+# Checking the type of the variable
+print(type(positive_float))  # Output: <class 'float'>
+print(type(negative_float))  # Output: <class 'float'>
