@@ -1,0 +1,11 @@
+# Example of string variables
+single_quote_string = 'Hello'
+double_quote_string = "World"
+
+# Checking the type of the variable
+print(type(single_quote_string))  # Output: <class 'str'>
+print(type(double_quote_string))  # Output: <class 'str'>
+
+# Concatenating strings
+greeting = single_quote_string + " " + double_quote_string
+print(greeting)  # Output: Hello World
