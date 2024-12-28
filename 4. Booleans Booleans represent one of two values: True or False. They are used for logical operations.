@@ -1,0 +1,11 @@
+# Example of boolean variables
+is_python_fun = True
+is_sky_green = False
+
+# Checking the type of the variable
+print(type(is_python_fun))  # Output: <class 'bool'>
+print(type(is_sky_green))  # Output: <class 'bool'>
+
+# Boolean operations
+print(5 > 3)  # Output: True
+print(5 < 3)  # Output: False
