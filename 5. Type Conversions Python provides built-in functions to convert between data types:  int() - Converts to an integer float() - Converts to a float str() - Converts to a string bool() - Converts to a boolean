@@ -1,0 +1,30 @@
+# Converting float to integer
+float_value = 7.8
+integer_value = int(float_value)  # Truncates the decimal part
+print(integer_value)  # Output: 7
+
+# Converting integer to float
+integer_value = 5
+float_value = float(integer_value)
+print(float_value)  # Output: 5.0
+
+# Converting integer to string
+integer_value = 10
+string_value = str(integer_value)
+print(string_value)  # Output: '10'
+
+# Converting string to integer
+string_value = "123"
+integer_value = int(string_value)
+print(integer_value)  # Output: 123
+
+# Converting string to float
+string_value = "45.67"
+float_value = float(string_value)
+print(float_value)  # Output: 45.67
+
+# Converting to boolean
+print(bool(1))  # Output: True
+print(bool(0))  # Output: False
+print(bool(""))  # Output: False (empty string is False)
+print(bool("Python"))  # Output: True (non-empty string is True)
